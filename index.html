@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,107 @@
     <main>
         <section>
             <h1>Home work №4</h1>
+            <hr>
+            <br>
+            <h2>Часть №1 домашнего задания </h2>
+            <p><strong>Универсальный селектор</strong> * - выбирает все елементы страницы</p>
+            <p><strong>Селектор элемента</strong> h2 - выбирает все елементы типа h2 (ещё называют селектором по имени
+                елемента)</p>
+            <p><strong>Селектор класса</strong> .class - выбирает все елементы с классом "сlass" </p>
+            <p><strong>Cелектор по нескольким классам</strong> .class.some-class - выбирает все елементы с классами
+                "сlass" и "some-class"</p>
+            <p><strong>Селектор идентификатора(по айди)</strong> #id – выберет все элементы с данным id "id" .
+                Значение id должно быть уникальным, на одной странице может встречаться только один раз и должно
+                содержать хотя бы один символ. </p>
+            <p><strong>Селектор атрибута</strong> по атрибуту cелекторы атрибутов выбирают элементы на основе имени
+                атрибута или значения атрибута например : data-target="book" ("book" выступает значением) или по имени
+                {data-target} - выбираются все елементы с именем атрибута "data-target" </p>
+            <p><strong>Дочерний селектор - </strong> дочерний элемент является прямым потомком содержащего его элемента.
+                У
+                одного элемента может быть несколько дочерних элементов, а родительский элемент у каждого элемента может
+                быть только один. Дочерний селектор позволяет применить стили только если дочерний элемент идёт сразу за
+                родительским элементом и между ними нет других элементов, то есть дочерний элемент больше ни во что не
+                вложен.
+                Например, p > strong — выберет все элементы strong, являющиеся дочерними по отношению к элементу p.
+            </p>
+            <p><strong>Сестринский селектор - </strong> cестринские отношения возникают между элементами, имеющими
+                общего родителя. Селекторы сестринских элементов позволяют выбрать элементы из группы элементов одного
+                уровня h1 + p — выберет все первые абзацы, идущие непосредственно за любым элементом h1, не затрагивая
+                остальные абзацы ; h1 ~ p — выберет все абзацы, являющиеся сестринскими по отношению к любому заголовку
+                h1 и идущие сразу после него. </p>
         </section>
+        <article>
+            <h2>Часть №2 домашнего задания </h2>
+            <h3> №1 за назвою елемента! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius explicabo deserunt
+                vel saepe, ipsum
+                optio
+                eveniet facilis odit laborum debitis! Maiores provident natus quasi voluptatibus cumque cum in aliquam
+                veniam.</h3>
+            <p class="thefirst"> №2 за класом! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos
+                ipsa
+                alias
+                obcaecati
+                fugit
+                excepturi necessitatibus quibusdam aliquid error, dicta temporibus voluptas voluptatem similique fuga
+                ipsum totam in itaque hic.</p>
+            <p id="lorem51"> №3 за id! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero esse quaerat
+                suscipit
+                commodi
+                delectus? Facere tempora et deleniti incidunt nisi. Dolorem tenetur et maxime dolorum cumque voluptatum
+                beatae quidem numquam.</p>
+            <h4 class="thesecond"> №4 за кількома класами ! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque repudiandae
+                tempore vitae laborum, corporis id natus similique dolores soluta consectetur voluptates temporibus
+                dignissimos omnis odit fugiat deleniti maxime ducimus eaque.</h4>
+            <h4 class="thethird"> №4 за кількома класами ! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                distinctio sequi
+                consequatur perspiciatis quisquam ut iusto earum incidunt, iure molestias magnam ipsum odio vitae,
+                commodi, ullam repudiandae beatae ducimus. Illo?</h4>
+            <div class="some-class">
+                <p> № 5 за вкладеністю! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, culpa dolorum
+                    asperiores officiis
+                    a
+                    quaerat, minus voluptatem nobis soluta, voluptas voluptatum autem! Nemo accusamus ab delectus
+                    doloremque voluptates, pariatur id!</p>
+                <p> № 5 за вкладеністю! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus veniam
+                    libero impedit
+                    earum, quod quaerat ducimus temporibus fuga aspernatur voluptatem debitis labore nemo suscipit
+                    facilis ex architecto quo mollitia!</p>
+            </div>
+            <div>
+                <p id="new-id"> № 6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aperiam recusandae
+                    unde
+                    iusto beatae velit eligendi. Beatae molestias voluptas libero commodi a accusamus dicta nam harum?
+                    Consequatur numquam perferendis asperiores.</p>
+
+
+                <p class="new-class"> № 7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                    voluptatem et
+                    aperiam id, culpa,
+                    dolorum at dolorem cum ad reiciendis similique repudiandae alias doloremque excepturi debitis
+                    laudantium, ullam iusto quaerat.</p>
+                <h4>№ 8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptas facilis ea odit odio
+                    repudiandae sequi, veritatis imilique quam est quo nihil ut consequuntur tenetur vitae quibusdam
+                    tempore, recusandae iure?</h4>
+                <ul>
+                    <li>Lorem <strong> № 9 ipsum dolor sit amet consectetur adipisicing elit.</strong> Accusamus labore,
+                        corporis adipisci
+                        laudantium exercitationem perspiciatis consequuntur doloremque ullam laboriosam veritatis ut
+                        sint facere sunt, architecto ipsum neque officiis, ea rerum?
+                    </li>
+                </ul>
+                <p class="nineclass"> № 10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic porro expedita,
+                    cumque
+                    totam beatae aliquam quibusdam alias saepe similique incidunt numquam neque excepturi facilis
+                    corrupti voluptates deserunt repudiandae corporis nihil.</p>
+                <p class="tenclass"> № 10 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores nobis
+                    dignissimos
+                    porro quibusdam quidem reiciendis alias minima voluptas consectetur impedit possimus quam ipsam iste
+                    magni, consequatur quia amet nam libero!</p>
+            </div>
+
+        </article>
+
     </main>
     <footer></footer>
 </body>
