@@ -11,11 +11,17 @@ img {
   max-width: 100%;
 }
 html {
-  font-size: 20px;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
-  color: #333333;
+  color: #000000;
+}
+h2 {
+  font-size: 18px;
+}
+p {
+  font-size: 14px;
 }
 .container {
   width: 100%;
@@ -28,4 +34,18 @@ html {
 
 .hidden {
   display: none;
+}
+
+.section1 {
+  background: #e5e5e5;
+}
+.card {
+  max-width: 300px;
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+  background: coral;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px #e0e0e0;
 }
