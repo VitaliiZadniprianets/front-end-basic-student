@@ -11,7 +11,15 @@ a {
 img {
   max-width: 100%;
 }
-
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #c4c4c4;
+}
 html {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -20,8 +28,11 @@ html {
   line-height: 1.17;
   color: #ffffff;
 }
-body {
-  background: #c4c4c4;
+.wrapper {
+  max-width: 1000px;
+  background: #e6e6e6;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
 p {
   text-align: center;
@@ -29,18 +40,12 @@ p {
   padding-right: 60px;
   padding-left: 50px;
 }
-.card-1 {
-  margin: 50px;
-  background: #e6e6e6;
-}
+
 .big_box_left,
 .big_box_right {
   width: 200px;
   height: 200px;
   background: #fc8f8f;
-}
-.clearfix {
-  clear: both;
 }
 
 .big_box_left {
@@ -57,16 +62,14 @@ p {
   text-align: center;
   color: #ffffff;
 }
-.card-2 {
-  margin: 50px;
-  background: #e6e6e6;
-}
-
 .small-box-right {
   width: 100px;
   height: 100px;
   background: #fc8f8f;
   margin-left: 15px;
+  display: inline-block;
+}
+.right-small {
   float: right;
 }
 
@@ -76,11 +79,6 @@ p {
   text-align: center;
   color: #ffffff;
   padding: 30px;
-}
-
-.card-3 {
-  margin: 50px;
-  background: #e6e6e6;
 }
 .big_box_right_margin {
   float: right;
@@ -95,4 +93,17 @@ p {
   background: #fc8f8f;
   width: 200px;
   height: 200px;
+}
+.big_box_right_third_line {
+  display: inline-block;
+  background: #fc8f8f;
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+}
+.right {
+  float: right;
+}
+.square {
+  padding: 50px 50px 1px;
 }
