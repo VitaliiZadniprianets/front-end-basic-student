@@ -17,7 +17,8 @@ html {
   line-height: 1.5;
   color: #333333;
 }
-body {
+.first,
+.second {
   text-align: center;
   background-size: cover;
   background-attachment: fixed;
