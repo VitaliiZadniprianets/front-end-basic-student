@@ -24,3 +24,11 @@ html {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+.nav-to-second {
+  color: blue;
+  text-align: left;
+}
+.nav-to-main {
+  color: blue;
+  text-align: center;
+}
