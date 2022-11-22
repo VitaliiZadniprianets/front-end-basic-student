@@ -38,3 +38,10 @@ html {
 .second {
   width: 3.5cm;
 }
+.body-3 {
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: darkgrey;
+}
