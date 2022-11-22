@@ -23,11 +23,18 @@ html {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-.nav-to-second {
+.nav-to-second,
+.nav-to-autor {
   color: blue;
   text-align: left;
 }
 .nav-to-main {
   color: blue;
   text-align: center;
+}
+.first {
+  width: 2cm;
+}
+.second {
+  width: 3.5cm;
 }

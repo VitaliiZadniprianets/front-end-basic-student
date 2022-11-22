@@ -10,21 +10,166 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body class="body" style="">
+<body class="body">
     <header>
         <nav class="nav-to-second">
             <a href="../index.html" target="blank"><strong>На Главную</strong></a>
         </nav>
-        <nav class="nav-to-main">
+        <nav class="nav-to-autor">
             <a href="./autorization.html" target="blank"><strong>К меню авторизации</strong></a>
         </nav>
     </header>
     <main>
         <section>
-
+            <h2>Поиск автомобилей</h2>
+            <form action="https://fom.in.ua/echo" method="post">
+                <label for="types-auto"><strong>Тип кузова</strong></label>
+                <br>
+                <select class="first" name="types-auto" id="types-auto">
+                    <option value="Седан">Седан</option>
+                    <option value="Кроссовер">Кроссовер</option>
+                    <option value="Грузовик">Грузовик</option>
+                    <option value="Хачбэк">Хачбэк</option>
+                    <option value="Универсал">Универсал</option>
+                    <option value="Купе">Купе</option>
+                </select>
+                <br>
+                <label for="marka"><strong>Марка авто:</strong></label>
+                <br>
+                <select name="marka" id="marka">
+                    <option value="Acura">Acura</option>
+                    <option value="Bentley">Bentley</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Mazda">Mazda</option>
+                    <option value="Lada">Lada</option>
+                    <option value="Mersedes">Mersedes</option>
+                </select>
+                <br>
+                <label for="country-producing"><strong>Страна производитель</strong></label>
+                <br>
+                <select class="first" name="country-producing" id="country-producing">
+                    <option value="Украина">Украина</option>
+                    <option value="Германия">Германия</option>
+                    <option value="США">США</option>
+                    <option value="Япония">Япония</option>
+                    <option value="Франция">Франция</option>
+                    <option value="Корея">Корея</option>
+                    <option value="Чехия">Чехия</option>
+                    <option value="Италия">Италия</option>
+                    <option value="Швеция">Швеция</option>
+                    <option value="Китай">Китай</option>
+                    <option value="Англия">Англия</option>
+                    <option value="Чехия">Чехия</option>
+                </select>
+                <br>
+                <p><strong>Цена (от и до)</strong></p>
+                <select name="ot_price" id="priceFrom" data-placeholder="От">
+                    <option value="0" selected="selected">От</option>
+                    <option value="0">0 usd</option>
+                    <option value="5000">5000 usd</option>
+                    <option value="10000">10000 usd</option>
+                    <option value="20000">20000 usd</option>
+                    <option value="30000">30000 usd</option>
+                    <option value="50000">50000 usd</option>
+                    <option value="100000">100000 usd</option>
+                    <option value="150000">150000 usd</option>
+                </select>
+                <select name="do_price" id="priceTo" data-placeholder="До">
+                    <option value="0">До</option>
+                    <option value="0">0 usd</option>
+                    <option value="5000">5000 usd</option>
+                    <option value="10000">10000 usd</option>
+                    <option value="20000">20000 usd</option>
+                    <option value="30000">30000 usd</option>
+                    <option value="50000">50000 usd</option>
+                    <option value="100000">100000 usd</option>
+                    <option value="150000">150000 usd</option>
+                </select>
+                <br>
+                <p><strong>Год (от и до)</strong></p>
+                <select name="ot_year" id="ot_from_year" data-placeholder="От">
+                    <option value="0">От</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                </select>
+                <select name="do_year" id="do_from_year" data-placeholder="До">
+                    <option value="0">До</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                </select>
+                <br>
+                <p><strong>Cостояние</strong></p>
+                <select class="second" name="condition" multiple="multiple" size="4">
+                    <option value="Любой">Любой</option>
+                    <option value="Битая">Битая</option>
+                    <option value="В кредите">В кредите</option>
+                    <option value="Не растаможена">Не растаможена</option>
+                </select>
+                <p><strong>Тип топлива</strong></p>
+                <select class="second" name="type_fuel">
+                    <option value="Любой">Любой</option>
+                    <option value="Бензин">Бензин</option>
+                    <option value="Дизель">Дизель</option>
+                    <option value="Електро">Електро</option>
+                    <option value="Газ">Газ</option>
+                </select>
+                <p><strong>Тип коробки передач</strong></p>
+                <select class="second" name="transmision" id="transmision">
+                    <option value="Автомат">Автомат</option>
+                    <option value="Механика">Механика</option>
+                    <option value="Типтроник">Типтроник</option>
+                    <option value="Электро">Электро</option>
+                </select>
+                <p><strong>Комфорт</strong></p>
+                <select class="second" name="condition" multiple="multiple" size="4">
+                    <option value="Кожа">Кожа</option>
+                    <option value="Люк">Люк</option>
+                    <option value="Премиум">Премиум</option>
+                    <option value="Ксенон">Ксенон</option>
+                    <option value="Кондиционер">Кондиционер</option>
+                    <option value="Сабвуфер">Сабвуфер</option>
+                </select>
+                <p><strong>Цвет</strong></p>
+                <select name="color">
+                    <option value="Любой">Любой</option>
+                    <option value="Красный">Красный</option>
+                    <option value="Белый">Белый</option>
+                    <option value="Черный">Черный</option>
+                    <option value="Желтый">Желтый</option>
+                    <option value="Зеленый">Зеленый</option>
+                    <option value="Синий">Синий</option>
+                    <option value="Оранжевый">Оранжевый</option>
+                </select>
+                <br>
+                <button type="submit" name="search" value="поиск выполнен">Поиск</button>
+            </form>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
