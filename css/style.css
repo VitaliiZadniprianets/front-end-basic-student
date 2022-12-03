@@ -1,6 +1,6 @@
 :root {
   --color-grey: #eeeff1;
-  --color-blue: #34547a;
+  --color-dark-blue: #34547a;
   --color-white: #ffffff;
   --color-dove-grey: #727272;
 }
@@ -15,6 +15,7 @@ a {
 }
 img {
   max-width: 100%;
+  border-radius: 0.5rem;
 }
 html {
   font-family: "Roboto", sans-serif;
@@ -54,7 +55,7 @@ p {
   padding-top: 79px;
 }
 .nav-bar a:hover {
-  color: var(--color-blue);
+  color: var(--color-dark-blue);
 }
 .nav-bar a {
   margin-right: 42px;
@@ -74,7 +75,7 @@ h1 {
   margin-bottom: 60px;
 }
 .button {
-  background: var(--color-blue);
+  background: var(--color-dark-blue);
   color: var(--color-white);
   min-width: 225px;
   display: inline-block;
@@ -84,4 +85,64 @@ h1 {
   text-transform: uppercase;
   padding: 20px;
   margin-bottom: 141px;
+}
+/*!---------Section-about---------!*/
+h2 {
+  margin-bottom: 50px;
+}
+.section-about {
+  margin-top: 112px;
+}
+.section-about p {
+  padding-bottom: 100px;
+}
+.center {
+  max-width: 540px;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 67px;
+}
+/*!---------section-images---------!*/
+.all-images {
+  background-color: var(--color-dark-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.text-image p,
+h3 {
+  color: var(--color-white);
+}
+.project {
+  width: 141px;
+  display: inline-block;
+  margin-right: 40px;
+}
+.project-image,
+.text-image {
+  vertical-align: top;
+  text-align: left;
+  display: inline-block;
+}
+.text-image {
+  padding-left: 20px;
+}
+/*!---------section-work---------!*/
+.work {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--color-grey);
+}
+.work p {
+  padding-bottom: 57px;
+}
+/*!---------Footer---------!*/
+.footer {
+  background-color: var(--color-dark-blue);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer span {
+  font-size: 13px;
+  color: var(--color-white);
+  padding-top: 20px;
 }
