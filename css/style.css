@@ -27,3 +27,10 @@ html {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+ul,
+li {
+  list-style-type: none;
+}
+.item:hover {
+  color: rgb(175, 21, 21);
+}
