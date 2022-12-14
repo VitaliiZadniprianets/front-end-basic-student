@@ -31,6 +31,56 @@ ul,
 li {
   list-style-type: none;
 }
+.top-menu {
+  margin-top: 15px;
+  background-color: grey;
+  border-bottom: 5px solid #69f570;
+}
+.main-menu > li {
+  display: inline-block;
+  position: relative;
+}
+
+.main-menu a {
+  display: block;
+  padding: 15px 70px;
+  text-transform: uppercase;
+}
+.top-menu li:hover {
+  background: #69f570;
+}
+.sub-menu {
+  position: absolute;
+  min-width: 300px;
+  background: #cfdd0d;
+  border-top: 2px solid #211052;
+  border-left: 2px solid #211052;
+  border-right: 2px solid #211052;
+  visibility: hidden;
+}
+
+.sub-menu li {
+  position: relative;
+}
+
+.sub-menu .sub-menu2 {
+  position: absolute;
+  left: 100%;
+  top: -2px;
+}
+
+.sub-menu li a {
+  border-bottom: 2px solid #211052;
+}
+.sub-menu a {
+  padding-top: 20px;
+}
+.sub-menu2 a {
+  text-transform: none;
+}
+nav li:hover > .sub-menu {
+  visibility: visible;
+}
 .item:hover {
   color: rgb(175, 21, 21);
 }
