@@ -85,6 +85,7 @@ html {
 .header_button-img {
   border-radius: 5px;
   box-shadow: 5px 5px 0 0 #fead1c;
+  cursor: pointer;
 }
 .menu__link:hover,
 .header__btn-text:hover {
@@ -136,8 +137,11 @@ html {
   padding: 15px;
   color: white;
   cursor: pointer;
+  transition: 0.2s;
 }
-
+.btn:hover {
+  background-color: #1eb059;
+}
 .blog {
   margin-top: 80px;
 }
@@ -216,7 +220,9 @@ html {
   background-size: cover;
   margin-top: 100px;
 }
-
+.btn.products:hover {
+  background-color: #1eb059;
+}
 .description {
   display: flex;
   align-items: center;
@@ -361,7 +367,9 @@ div .bg-gray {
 .form__btn {
   margin-top: 31px;
 }
-
+.btn.form:hover {
+  background-color: #ffd150;
+}
 .form__input {
   width: 100%;
   padding: 15px 0 15px 16px;
@@ -388,4 +396,7 @@ div .bg-gray {
   line-height: 20px;
   color: #536d7a;
   margin-left: 10px;
+}
+.form__link:hover {
+  color: #589cbe;
 }
