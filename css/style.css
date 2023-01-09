@@ -91,7 +91,7 @@ input {
   border-radius: 12px;
 }
 
-/*-----header------------------------------------------------------------------------*/
+/*-----Header--------------------------------------------------------*/
 
 .header .container .header-wrap {
   grid-template-areas:
@@ -124,7 +124,7 @@ input {
 .wrap-nav {
   position: relative;
 }
-/*--------burger--------*/
+/*--------Burger--------*/
 
 .check,
 .burger {
@@ -258,7 +258,7 @@ input {
 .logo-header {
   display: none;
 }
-/*--------------section----------*/
+/*--------------Section----------*/
 .section-team {
   padding-top: var(--container-space);
   padding-bottom: 60px;
