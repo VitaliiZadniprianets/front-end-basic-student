@@ -55,6 +55,26 @@ body {
   grid-template-rows: 56px 56px;
   grid-auto-rows: minmax(10px, auto);
 }
+.adress-list__link-facebook-logo-header:hover .fb-logo,
+.adress-list__link-facebook-logo-header:hover .fb-logo {
+  fill: #f0145a;
+}
+.adress-list__span:hover {
+  color: black;
+  cursor: pointer;
+}
+.adress-list__link:hover {
+  color: black;
+}
+.header__menu-contacts-language_grey {
+  background-color: #f5f5fa;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px 7px;
+}
+.header__menu-contacts-language_grey:hover {
+  color: grey;
+}
 @media screen and (max-width: 1441px) {
   .header {
     padding: 0 60px;
@@ -466,6 +486,9 @@ body {
   position: absolute;
   width: 100%;
   background-color: #f5f5fa;
+}
+.footer-inner__contacts-tel:hover {
+  color: #f0145a;
 }
 @media screen and (max-width: 1693px) {
   .footer {
