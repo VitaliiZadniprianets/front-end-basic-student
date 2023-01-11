@@ -172,6 +172,7 @@ body {
   background-color: #f0145a;
   border-radius: 8px;
   color: #ffffff;
+  cursor: pointer;
 }
 .header__menu-adress {
   display: flex;
