@@ -216,7 +216,7 @@
 }
 .navigation li :hover {
   background-color: #e6e6f0;
-  color: var(--fill-color);
+  color: #24a3ff;
   text-decoration: underline;
 }
 
@@ -262,6 +262,12 @@ footer {
 }
 .phone {
   color: #46466e;
+}
+.phone:hover {
+  color: black;
+}
+.phoneNumber:hover {
+  color: black;
 }
 .email {
   color: var(--text-color-blue);

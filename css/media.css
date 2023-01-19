@@ -169,6 +169,13 @@
     width: 100%;
     max-width: 50%;
   }
+  .navigation li :hover {
+    background-color: transparent;
+  }
+  .navigation > li > .page {
+    text-decoration: underline;
+    color: var(--fill-color);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -184,6 +191,13 @@
     margin-left: 80px;
   }
 }
+.navigation li :hover {
+  background-color: transparent;
+}
+.navigation > li > .page {
+  text-decoration: underline;
+  color: var(--fill-color);
+}
 
 @media (min-width: 1920px) {
   .containerWide {
@@ -191,5 +205,12 @@
   }
   .container {
     max-width: calc(1600px + 2rem);
+  }
+  .navigation li :hover {
+    background-color: transparent;
+  }
+  .navigation > li > .page {
+    text-decoration: underline;
+    color: var(--fill-color);
   }
 }
